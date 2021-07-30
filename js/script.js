@@ -11,8 +11,8 @@ async function converter() {
     let moedas = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL").then(function(resposta){
     return resposta.json()
     });
-    let dolar = moedas.USDBRL.high
-    let euro = moedas.EURBRL.high
+    let dolar = moedas.USDBRL.high;
+    let euro = moedas.EURBRL.high;
 
 
     document.querySelector('#secundaria').style.display = 'block';
