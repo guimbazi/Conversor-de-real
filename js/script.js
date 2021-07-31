@@ -40,12 +40,12 @@ function selectMoeda() {
         document.querySelector('#input').value = '';
     }
     if (moeda.value === 'US$ Dólar americano') {
-        document.querySelector('#bandeira-convertida').src = '../img/eua.png';
+        document.querySelector('#bandeira-convertida').src = './img/eua.png';
         document.querySelector('#moeda').innerHTML = 'Dólar Americano';
         
     }
     if (moeda.value === '€ Euro') {
-        document.querySelector('#bandeira-convertida').src = '../img/euro.png';
+        document.querySelector('#bandeira-convertida').src = './img/euro.png';
         document.querySelector('#moeda').innerHTML = 'Euro';
         
     }
